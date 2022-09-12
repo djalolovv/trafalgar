@@ -1,0 +1,301 @@
+/* mulish-300 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/mulish-v12-latin-300.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/mulish-v12-latin-300.woff") format("woff");
+  font-display: swap;
+}
+/* mulish-regular - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/mulish-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/mulish-v12-latin-regular.woff") format("woff");
+  font-display: swap;
+}
+/* mulish-600 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/mulish-v12-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/mulish-v12-latin-600.woff") format("woff");
+  font-display: swap;
+}
+/* mulish-700 - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/mulish-v12-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/mulish-v12-latin-700.woff") format("woff");
+  font-display: swap;
+}
+/* GLOBAL STYLE */
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin: 0;
+}
+.title-texts {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+.btn {
+  border: 2px solid transparent;
+  border-radius: 55px;
+  padding: 20px 40px;
+  color: white;
+  font-size: 18px;
+  line-height: 60px;
+}
+/* STYLE */
+.trafalgar-nav {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 50px;
+}
+.nav-ul {
+  padding: 0;
+  margin: 0px;
+  display: flex;
+  list-style: none;
+}
+.link-1:hover {
+  border-color: #458ff6;
+  opacity: 1;
+}
+.link-1 {
+  border: 3px solid transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+  transition: 1s;
+}
+.link-home {
+  opacity: 1;
+  color: black;
+}
+.nav-li:not(:last-child) {
+  margin-right: 40px;
+}
+.btn-1 {
+  border-color: #458ff6;
+  background-color: #458ff6;
+  transition: 1s;
+}
+.btn-1:hover {
+  padding: 20px 45px;
+  background-color: white;
+  color: #458ff6;
+}
+.content-1 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-1-texts {
+  width: 445px;
+}
+.text-2 {
+  padding-bottom: 25px;
+}
+.line {
+  width: 56px;
+  border-bottom: 4px solid black;
+  margin-bottom: 33px;
+}
+.content-2-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-2 {
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+.card-1 {
+  padding-top: 54px;
+  padding-left: 37px;
+  width: 350px;
+  height: 400px;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.card-title {
+  font-size: 24px;
+  line-height: 56px;
+}
+.btn-2 {
+  border-color: #458ff6;
+  background-color: white;
+  color: #458ff6;
+  transition: 1s;
+}
+.btn-2:hover {
+  padding: 20px 50px;
+  background-color: #458ff6;
+  color: white;
+}
+.btn-div {
+  margin-left: 450px;
+}
+.content-3-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.line-2 {
+  margin: 0;
+  margin-bottom: 31px;
+}
+.info-card-1 {
+  padding: 20px;
+  margin-top: 289px;
+  width: 1120px;
+  height: 425px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  margin-bottom: 50px;
+}
+.info-card-title {
+  text-align: center;
+}
+.info-text-1 {
+  color: white;
+}
+.line-color {
+  border-color: white;
+}
+.info-card-img {
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.info-card-text-2 {
+  color: white;
+  font-size: 22px;
+  line-height: 15px;
+}
+.info-cards-box {
+  display: flex;
+  justify-content: space-around;
+}
+.info-card-text-3 {
+  color: rgba(255, 255, 255, 0.85);
+}
+.div1 {
+  display: flex;
+  align-items: center;
+  width: 35%;
+}
+.arrow {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 220px;
+}
+.content-card-1 {
+  width: 350px;
+  height: 512px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.content-card-img {
+  border-radius: 15px 15px 0px 0px;
+}
+.card-content-div {
+  margin-left: 33px;
+}
+.card-content-text-1 {
+  font-size: 21px;
+  line-height: 32px;
+}
+.read-more {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ed;
+  font-style: normal;
+}
+.strelka-1 {
+  padding-left: 20px;
+}
+.content-5 {
+  margin-bottom: 100px;
+}
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+.footer-text-1 {
+  width: 35%;
+}
+.footer-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer-links {
+  font-style: normal;
+}
+.footer-link {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  border-bottom: 2px solid transparent;
+  transition: 1s;
+}
+.footer-link:hover {
+  border-color: white;
+}
+.footer-link-title {
+  line-height: 60px;
+  font-weight: 700;
+}
+.foooter-container {
+  justify-content: space-between;
+  padding-top: 124px;
+  display: flex;
+  padding-bottom: 109px;
+}
